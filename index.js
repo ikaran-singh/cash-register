@@ -28,6 +28,7 @@ function calculateChange(amt) {
         const numberOfNotes = Math.trunc(amt / availableNotes[i]);
         amt %= availableNotes[i];
         noOfNotes[i].innerText = numberOfNotes;
+        console.log("ckc");
     }
 
 }
